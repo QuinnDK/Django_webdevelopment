@@ -1,0 +1,80 @@
+{% extends 'public/index/base.html' %}
+{% block main %}
+    <main class="" id="main-collapse">
+
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="section-container-spacer">
+                    <h1>联系我们</h1>
+                    <p>
+                        很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述
+                        很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述
+                        很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述很多很多的描述
+                    </p>
+                </div>
+                <div class="section-container-spacer">
+                    <form action="" class="reveal-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="邮箱">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="标题">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="请输入内容"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">发送</button>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled address-container">
+                                    <li>
+                  <span class="fa-icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </span>
+                                        + 86 18888888888
+                                    </li>
+                                    <li>
+                  <span class="fa-icon">
+                    <i class="fa fa-at" aria-hidden="true"></i>
+                  </span>
+                                        lxgzhw520@qq.com
+                                    </li>
+                                    <li>
+                  <span class="fa-icon">
+                    <i class="fa fa fa-map-marker" aria-hidden="true"></i>
+                  </span>
+                                        北京房山
+                                    </li>
+                                </ul>
+                                <h3>关注我的社交账号</h3>
+                                <a href="#/" title="" class="fa-icon">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" title="" class="fa-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" title="" class="fa-icon">
+                                    <i class="fa fa-dribbble"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+{% endblock %}
+{% block js %}
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            navbarToggleSidebar();
+            navActivePage();
+        });
+    </script>
+{% endblock %}
